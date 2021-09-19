@@ -1,0 +1,61 @@
+body {
+	background-image: url("bg1.jpg");
+	background-attachment: fixed;
+}
+
+.box {
+	text-decoration: none;
+	display: inline-block;
+	height: 100px;
+	width: 300px;
+	border-radius: 8px;
+	background: linear-gradient(to right, #202020, #404040);
+	overflow: hidden;
+	position: relative;
+	vertical-align: middle;
+}
+
+.box:hover {
+	box-shadow: 0px 0px 1px 1px dodgerblue;
+}
+
+.box img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 12px 20px;
+	display: block;
+	float: left;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+table {
+	border-spacing:40px 20px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+td {
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+	vertical-align: middle;
+	color: whitesmoke;
+}
+
+.txt {
+	margin: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
