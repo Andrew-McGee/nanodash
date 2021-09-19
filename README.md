@@ -6,6 +6,8 @@ When you don't want to mess around with building project dependencies or lavarel
 
 If you don't include thumbnails or backgrounds nanodash boils down to two files. 37 lines of html at 2,111 bytes and 61 lines of css weighing in at 980 bytes. It could be even smaller if you don't need all the default 4x3 tiles.
 
+![nanodash_screenshot](https://user-images.githubusercontent.com/45531427/133925792-fa3752f3-2c91-43f8-b928-6931971a7bd4.jpg)
+
 ## Install & Config
 Clone the repo and edit the index.html with your apps, pointing to your links. Source and edit your own logos if required and drop them in the thumbs directory. Drop everything into a directory on your web server.
 
